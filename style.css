@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{ 
+    scroll-behavior: smooth;
+}
+    #bt1{
+        background-color: rgb(102, 0, 255);
+        color: aliceblue;
+        height:40px;
+        width: 200px;
+        border-radius: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bt1{height: 60px;
+        width: 300px;
+        display:flex;
+        align-items: center;
+    }
+    .bt1 a{
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .bt1 a:hover  { background-color: blue;
+        color: beige;
+        transition: all .5s ease;
+        border-radius: 10px; 
+    }
+    #Home{
+        background-image: url("https://wallpaper.dog/large/10857130.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 730px;
+        opacity: 0.9;
+       
+        position: relative;
+
+    }
+    .img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+        .neon-circle {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background-color:  transparent;
+             border-radius: 40%; 
+            margin-top: 70px;
+            margin-left: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+          .centre_text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Arial', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            text-shadow: 0 0 10px  rgb(102, 0, 255)  rgb(25, 1, 62) rgb(127, 13, 221);
+          }
+            
+        
+        #anvi{
+            color:  rgb(102, 0, 255);
+            font-size:80px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+           #greetings{
+            font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 80px;
+            color: antiquewhite;
+            height: 200px;
+            margin-bottom: 80px;
+        }
+        .main{
+             margin-top: 10px;
+             margin-left: 10px;
+        }    
+         .first_div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+         }
+         p{
+            font-size: 30px;
+            color: #f4f5f7;
+
+         }
+         #last_div{
+            width:500px;
+            margin-right: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            
+        }
+        
+          #About{
+            background-image: url(" https://c1.wallpaperflare.com/preview/411/694/389/black-business-computer-desk.jpg");
+             background-size: cover;
+            background-repeat: no-repeat;
+            height: 730px;
+            opacity: 0.8;
+        }
+         #about2{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            color: #f4f5f7;
+             flex-direction: column;
+             margin-top: 20px;
+         }
+         #talk{
+            font-size: 35px;
+            color: rgb(12, 12, 12);
+            margin-right: 1200px;
+         }
+         #aboutme{
+            color:rgb(102, 0, 225); 
+            font-size: 80px;
+         }
+         #me{
+            color: black;
+            font-size: 80px;
+         }
+         #about3{
+            display: flex;
+            flex-direction: row;
+            font-weight: bold;
+            font-size: 80px;
+         }
+         #about_para{
+            font-size: 25px;
+            color: rgb(253, 253, 247);
+            margin-left: 30px;
+            margin-top:20px;
+            margin-right: 30px;
+         }
+        
+        #Services{
+            background-image: url(" https://c1.wallpaperflare.com/preview/411/694/389/black-business-computer-desk.jpg");
+             background-size: cover;
+            background-repeat: no-repeat;
+            height: 730px;
+            opacity: 0.8;
+        }
+        .nav{ 
+            height: 50px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(4, 2, 38, 0.5);
+            width: 100%;
+            position: sticky;
+        }
+        .nav  ul{ 
+            display: flex;
+            list-style-type: none;
+            margin: 20px ;
+        }
+        .nav ul li{
+            padding: 20px 20px;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .nav ul li a:hover{
+            background-color:  rgb(102, 0, 255);
+            color: beige;
+            transition: all .5s ease;
+            border-radius: 10px;
+        }
+        .nav ul li a{
+            text-decoration: none;
+            font-size: 40px;
+            color: rgb(212, 211, 214);
+            transition: color 0.3s ease-in-out;
+        } 
+         
+         #services{
+            display:flex;
+            flex-direction: column;
+            padding:20px;
+         }
+          #web_d{
+            display: flex;
+            flex-direction: row;
+            font-size: 60px;
+          }
+          #web{color: rgb(102, 0, 255);
+ }
+         
+         .div_service{
+            display: flex;
+            width: 1300px;
+            flex-direction: column;
+            height: 400px;
+            border: 7px solid rgb(102, 0, 255); 
+            margin: 10px;
+            text-align: justify;
+            align-items: center;
+            border-radius: 10%;
+            padding: 10px;
+            margin-left: 100px;
+            margin-top:50px
+         }
+         #service_heading{
+            font-size: 80px;
+            color: rgb(102, 0, 255);
+            font-weight: bold;
+         }
+         #service_head{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            
+         }
+         #service_para{
+            font-size: 30px;
+            color: #f4f5f7;
+            margin-top: 20px;
+            padding: 10px 10px 10px;
+         }
+        
+        #Contact {
+            
+            background-color: rgb(29, 28, 28);
+            height: 730px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+            align-content: center;
+        }
+        .box{
+            background-color: transparent;
+            height: 400px;
+            width: 500px;
+            border-radius: 10%;
+            border: 2px solid  rgb(102, 0, 255);
+            display: flex;
+            align-items: center;  
+            align-content: center; 
+            justify-content: center;
+            justify-items: center;
+            flex-direction: column;
+            position: absolute;
+            padding: 20px;
+        }   
+            
+            a{
+                text-decoration: none;
+                background-color: transparent;
+                color: beige;
+                  
+            }
+        #contactme {
+            color:rgb(102, 0, 255);
+            }
+        .contact_head{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:rgb(244, 241, 247);
+            font-size: 30px;
+            display: flex;
+            justify-content: first baseline;
+            overflow: hidden;
+            opacity: 0.8;
+
+        }
+            .links{ color: rgb(232, 232, 237);
+                
+                background-color: transparent;
+                align-items: center;
+                justify-content: space-evenly;
+                display: flex;
+               flex-direction: row;
+                font-size: 20px;
+            }
+            input{width:300px;
+                padding :10px;
+               border-radius: 5px;
+               align-items: center;
+               display: flex;
+               justify-content: center;
+               align-self: center;
+            }
+    input.message{  
+        height: 200px;
+        width:200px;
+        padding: 20px;
+}
+footer{background-color: rgb(76, 74, 74);
+    height: 100px;
+}
+#contact_footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: bisque;
+    padding: 20px 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+ 
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px; 
+    flex-direction: column;
+    margin-left: 520px;
+    height: 350px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+ 
+ 
+  
+  .fab {
+    font-size: 50px;  
+    transition: color 0.3s ease; / 
+  }
+  
+  .fab:hover {
+    color: #f4f5f7;  
+  }
+  .fa-instagram{
+    color:rgb(102, 0, 255);
+  }
+  .fa-facebook{
+    color:rgb(102, 0, 255);
+  }
+.fa-twitter{
+    color:rgb(102, 0, 255);
+}
+.fa-github{
+    color:rgb(102, 0, 255);
+}
+.contact_div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:50px;
+}
+
+
+
+
